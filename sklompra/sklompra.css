@@ -48,7 +48,7 @@ nav {
     font-weight: bolder;
 }
 
-.about-me, .EX {
+.about-me, .EX, .Contact {
     padding: 50px;
     margin: 0 auto;
     text-align: center;
@@ -56,4 +56,9 @@ nav {
 
 .profile-image {
     box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.social-icons img {
+    width: 10%;
+    margin: 5 10px;
 }

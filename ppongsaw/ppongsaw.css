@@ -48,8 +48,13 @@ nav {
     font-weight: bolder;
 }
 
-.about-me, .EX {
+.about-me, .EX, .Contact {
     padding: 15px;
     margin: 0 auto;
     text-align: center;
+}
+
+.social-icons img {
+    width: 10%;
+    margin: 5 10px;
 }
