@@ -48,8 +48,14 @@ nav {
     font-weight: bolder;
 }
 
-.about-me, .EX {
-    padding: 15px;
+.about-me {
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.EX {
+    padding-top: 50px;
     margin: 0 auto;
     text-align: center;
 }
