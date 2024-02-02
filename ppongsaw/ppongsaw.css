@@ -12,11 +12,11 @@
 
 nav {
     background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .nav-con {
@@ -48,13 +48,42 @@ nav {
     font-weight: bolder;
 }
 
-.about-me, .EX {
-    padding: 15px;
+img {
+    width: 500px;
+    height: auto;
+    margin: 0;
+}
+
+.about-me {
+    padding-top: 100px;
     margin: 0 auto;
     text-align: center;
 }
 
+.EX {
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.profile-image {
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
 .social-icons img {
     width: 10%;
+    height: auto;
     margin: 5 10px;
 }

@@ -49,8 +49,8 @@ nav {
 }
 
 img {
-    width: 40%;
-    height: 40%;
+    width: 500px;
+    height: auto;
     margin: 0;
 }
 
@@ -72,12 +72,18 @@ img {
     text-align: center;
 }
 
+
 .profile-image {
     box-shadow: rgba(0, 0, 0, 0.1);
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
 .social-icons img {
-    width: 50px;
+    width: 10%;
     height: auto;
-    margin: 5px 10px;
+    margin: 5 10px;
 }
