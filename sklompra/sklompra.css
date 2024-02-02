@@ -43,3 +43,12 @@ nav {
     font-size: 1.5rem;
     font-weight: bolder;
 }
+.about-me {
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-image {
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
