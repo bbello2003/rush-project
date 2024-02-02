@@ -17,11 +17,10 @@ body {
 .titleHomepage {
     text-align: center;
     padding-top: 30px;
-}
-
-h1 {
-    align-self: center;
-    margin-bottom: 20px;
+    font-family: Impact;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-bottom: 80px;
 }
 
 * {
@@ -104,12 +103,19 @@ td {
     max-width: 500px;
     max-height: 700px;
     margin: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .profile-picture {
@@ -120,7 +126,7 @@ td {
 }
 
 img {
-    width: 300px;
+    width: 350px;
     height: auto;
     display: block;
     margin: 0;
