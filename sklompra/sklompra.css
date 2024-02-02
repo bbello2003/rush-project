@@ -83,3 +83,8 @@ nav {
     width: 50px;
     height: auto;
 }
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
