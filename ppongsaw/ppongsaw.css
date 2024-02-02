@@ -48,12 +48,6 @@ nav {
     font-weight: bolder;
 }
 
-img {
-    width: 500px;
-    height: auto;
-    margin: 0;
-}
-
 .about-me {
     padding-top: 100px;
     margin: 0 auto;
@@ -75,6 +69,8 @@ img {
 
 .profile-image {
     box-shadow: rgba(0, 0, 0, 0.1);
+    width: 40%;
+    height: 40%;
 }
 
 .social-icons {
