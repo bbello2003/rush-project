@@ -66,11 +66,11 @@ nav {
     text-align: center;
 }
 
-
 .profile-image {
     box-shadow: rgba(0, 0, 0, 0.1);
-    width: 40%;
-    height: 40%;
+    width: 500px;
+    height: auto;
+    margin: 0;
 }
 
 .social-icons {
@@ -78,8 +78,8 @@ nav {
     justify-content: center;
 }
 
-.social-icons img {
-    width: 10%;
+.icons {
+    padding-top: 15px;
+    width: 50px;
     height: auto;
-    margin: 5 10px;
 }
