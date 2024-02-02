@@ -112,10 +112,19 @@ td {
     text-align: center;
     overflow: hidden;
     transition: transform 0.3s;
+    cursor: pointer;
 }
 
 .card:hover {
     transform: scale(1.05);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.profile-header {
+    color: black;
 }
 
 .profile-picture {
