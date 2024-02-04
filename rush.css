@@ -30,75 +30,6 @@ body {
     font-family: "Lucida Sans Unicode";
 }
 
-.container {
-    max-width: 70vw;
-    margin: 0 auto;
-}
-
-nav {
-    background-color: #0c0c0c;
-}
-
-.nav-con {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-}
-
-.menu {
-    display: flex;
-}
-
-.menu li {
-    list-style: none;
-    margin-left: 1rem;
-}
-
-.nav-con a {
-    color: #cccccc;
-    text-decoration: none;
-}
-
-.logo a {
-    font-size: 1.5rem;
-    font-weight: bolder;
-}
-
-.menu input {
-    margin-right: -25px;
-    padding: 10px;
-    padding-right: 25px;
-    background-color: #2e2e2e;
-    border: 0px;
-    border-radius: 25px;
-    color: #cccccc;
-    height: 25px;
-}
-
-.menu input:focus {
-    border: 0px;
-    outline: none;
-}
-
-.menu button {
-    padding: 0 1rem;
-    background-color: #2e2e2e;
-    border: 0px;
-    border-radius: 25px;
-    color: #cccccc;
-    height: 25px;
-}
-
-td {
-    padding: 5px;
-}
-
-.card-title {
-    text-align: center;
-    font-size: 16px;
-}
-
 .card {
     max-width: 500px;
     max-height: 700px;
@@ -139,9 +70,4 @@ img {
     height: auto;
     display: block;
     margin: 0;
-}
-
-.social-icons img {
-    width: 10%;
-    margin: 5 10px;
 }
